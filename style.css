@@ -1,0 +1,313 @@
+@font-face {
+    font-family: 'Conv_LG Smart Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('LG Smart Regular'), url('LG Smart Regular.woff') format('woff');
+}
+body{
+    margin: 0%;
+}
+#navbar{
+    height: 80px;
+}
+#logo{
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 14px;
+    margin-right: 383px;
+    float: left;
+}
+#navigations{
+    float: left;
+    height: 80px;
+    margin-right: 357px;
+}
+span{
+    margin-right: 32px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: #1b1b1b;
+    font-family: 'Alegreya Sans SC';
+    font-weight: bold;
+    position: relative;
+    top: 30px;
+}
+span:hover{
+    color: rgb(139, 139, 139);
+}
+#search{
+    margin-top: 30px;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 20px;
+}
+#homeimgs{
+    width: 1349px;
+    height: 700px;
+}
+#hmg{
+    width: 1349px;
+    height: 720px;
+    object-fit: cover;
+}
+h1{
+    font-size: 61px;
+    color: #1b1b1b;
+    line-height: 54px;
+    font-family: sans-serif;
+    font-weight: 900;
+    position: relative;
+    left: 107px;
+    top: 55px;
+}
+#hmtxt{
+    position: absolute;
+    top: 206px;
+}
+p{
+    font-size: 20px;
+    color: #1b1b1b;
+    position: relative;
+    left: 107px;
+    line-height: 25px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: bold;
+    top: 30px; 
+}
+.button{
+    border-width: 1px;
+    border-radius: 2px;
+    border-color:rgb(172, 187, 186);
+    font-size: 16px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: bold;
+    height: 56px;
+    width: 157px;
+    background: transparent;
+    position: relative;
+    top: 10px;
+}
+.button:hover{
+    border-image: linear-gradient(to right,rgb(240, 22, 174),red,#ffd000)1;
+}
+#white{
+    width: 230px;
+    height: 16px;
+    border-radius: 2px;
+    background: white;
+    margin-top: 51px;
+    margin-left: 107px;
+    text-align: center;
+    padding-bottom: 4px;
+}
+.smallwhite{
+    height: 3.5px; 
+    width: 50px;
+    border-radius: 2px;
+    background: white;
+    margin-top: -12px;
+    margin-left: 370px;
+}
+.smallwhite2{
+    height: 2.5px; 
+    width: 50px;
+    border-radius: 2px;
+    background: white;
+    margin-top: -4px;
+    margin-left: 450px;
+}
+label{
+    font-size: 12px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: bold;
+}
+#left{
+    float: left;
+    height: 531px;
+    width: 551px;
+    background-image: linear-gradient(to right bottom,red,#ffd000);
+}
+h2{
+    font-size: 54px;
+    font-family: sans-serif;
+    line-height: 50px;
+    font-weight: 900;
+    color: white;
+    margin-left: 54px;
+    margin-top: 28px;
+}
+.p2{
+    font-size: 24px;
+    color: white;
+    position: relative;
+    line-height: 25px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: lighter;
+    left: 54px;
+    top: -30px;
+}
+.p3{
+    font-size: 14px;
+    color: white;
+    position: relative;
+    line-height: 25px;
+    font-family: 'Conv_LG Smart Regular';
+    left: 54px;
+    top: -30px;
+    letter-spacing: 1px;
+}
+#right{
+    float: left;
+    height: 531px;
+    width: 797px;
+    margin-bottom: 75px;
+}
+.l1{
+    font-size: 15px;
+    margin-left: 67px;
+    color: black;
+}
+.items{
+    float: left;
+    height: 496px;
+    width: 394px;
+    background: #f6f6f6;
+    margin-right: 14px;
+    margin-top: 42px;
+    text-align: center;
+}
+.items:hover{
+    background: #1b1b1b;
+}
+.items:hover>.cardtxt{
+    color: white;
+}
+.cardimg{
+    width: 394px;
+}
+.cardtxt{
+    margin-top: 72px;
+    font-size: 22px;
+    font-family: 'Conv_LG Smart Regular';
+}
+#lap{
+    position: relative;
+    top: 187px;
+}
+h3{
+    font-size: 61px;
+    color: white;
+    line-height: 54px;
+    font-family: sans-serif;
+    font-weight: 900;
+    position: absolute;
+    bottom: 158px;
+    left: 40px;
+}
+.p4{
+    font-size: 20px;
+    color: white;
+    line-height: 25px;
+    font-family: 'Conv_LG Smart Regular';
+    position: absolute;
+    top: 850px;
+    left: 40px;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+#dwnbut{
+    background: white;
+    width: 192px;
+    height: 58px;
+    position: absolute;
+    left: 40px;
+    top: 950px;
+    border-radius: 4px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: bold;
+    font-size: 15px;
+}
+#dwnbut:hover{
+    color: rgb(139, 139, 139);
+    top: 948px;
+}
+#pc{
+    position: absolute;
+    width: 785px;
+    height: 690px;
+    left: 490px;
+    top: 500px;
+}
+#footdown{
+    width: 1349px;
+    height: 600px;
+    background: #1b1b1b;
+    position: relative;
+    bottom: -314px;
+    padding-top: 73px;
+    display: flex;
+    flex-direction: column;
+}
+#foottext{
+    width: 912px;
+    height: 387px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 35px;
+}
+#lang{
+    background: transparent;
+    width: 149px;
+    height: 42px;
+    justify-content: left;
+    margin-left: 35px;
+    color: white;
+    border-color: white;
+    border-radius: 2px;
+    border-width: 1px;
+    font-size: 14px;
+}
+.footdiv{
+    height: 387px;
+    width: 247px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.heading{
+    color: #c6c6c6;
+    font-size: 16px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.footitems{
+    color: white;
+    font-size: 11px;
+    font-family: sans-serif;
+    font-stretch: expanded;
+    margin-bottom: 16px;
+}
+#lastfoot{
+    background: #222222;
+    height: 105px;
+    width: 1349px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.lasttext{
+    color: white;
+    font-size: 17px;
+    font-family: 'Conv_LG Smart Regular';
+    font-weight: lighter;
+}
+.social{
+    width: 16px;
+    height: 16px;
+}
